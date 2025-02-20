@@ -44,5 +44,4 @@ function optimize_uploaded_image($file) {
 add_filter('wp_handle_upload', 'optimize_uploaded_image', 10, 1);
 
 
-// comment
 ?>
