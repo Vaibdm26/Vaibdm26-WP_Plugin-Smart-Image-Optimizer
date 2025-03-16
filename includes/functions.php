@@ -14,7 +14,7 @@ function optimize_uploaded_image($file) {
     }
 
     // Get API key from settings
-    $apiKey = get_option('smart_image_optimizer_api_key', 'wGynxkYrZtklV1H6FqtMhnKrnkMZ4blK');
+    $apiKey = get_option('smart_image_optimizer_api_key', '');
     if (empty($apiKey)) {
         return $file;
     }
